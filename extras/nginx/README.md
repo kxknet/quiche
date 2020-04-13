@@ -22,6 +22,10 @@ only works with the 1.16.x release branch (the latest stable release being
 ```
  % curl -O https://nginx.org/download/nginx-1.16.1.tar.gz
  % tar xzvf nginx-1.16.1.tar.gz
+ apt install make gcc gcc+ cmake
+ apt install zlib1g-dev
+ apt install libpcre3-dev
+ apt install git
 ```
 
 As well as quiche, the underlying implementation of HTTP/3 and QUIC:
